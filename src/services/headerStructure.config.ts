@@ -14,7 +14,8 @@ export const headerStructure = {
     { url: "Visita", imgSrc: "#", altText: "" },
     { url: "Visita", imgSrc: "#", altText: "" },
   ],
-  title: "",
-  slogan: "",
-  heroImage: "",
+  heroTitle: "ARCHIVIO STORICO",
+  heroSlogan:
+    "Una raccolta di tutti i momenti più importanti nella storia del museo e dei suoi curatori.",
+  heroImage: "../assets/images/hero-image.jpg",
 };
