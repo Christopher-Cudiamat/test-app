@@ -1,6 +1,11 @@
 @import "./variables";
 
-// Note: Font to be added
+@font-face {
+  font-family: Work;
+  src: url("../assets/fonts/WorkSans/worksans-regular-webfont.woff2") format("woff2"),
+    url("../assets/fonts/WorkSans/worksans-regular-webfont.woff") format("woff");
+  font-style: normal;
+}
 
 * {
   box-sizing: border-box;
@@ -14,13 +19,12 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-size: 1.6rem;
-  font-family: sans-serif;
+  font-size: Work,sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $textColor;
-  background-color: $secondaryColor;
+  background-color: $whiteColor;
   display: flex;
   flex-direction: column;
   flex: 1 0 auto;
