@@ -24,7 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $textColor;
-  background-color: $whiteColor;
+  background-color: $textDark1Color;
   display: flex;
   flex-direction: column;
   flex: 1 0 auto;
@@ -131,4 +131,12 @@ button {
   appearance: none;
   border: none;
   cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+   text-decoration: none;
 }

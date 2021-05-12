@@ -1,8 +1,6 @@
 @import "./sassStyles/variables";
 
 .App {
-  background-color: $textColor;
-  font-size: 5rem;
-  color: black;
   font-family: Work;
+  position: relative;
 }

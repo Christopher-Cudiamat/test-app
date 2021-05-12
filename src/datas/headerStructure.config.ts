@@ -1,18 +1,19 @@
 import facebookIcon from "../assets/icons/header/header-facebook.svg";
 import instagramIcon from "../assets/icons/header/header-instagram.svg";
 import twitterIcon from "../assets/icons/header/header-twitter.svg";
+import menuIcon from "../assets/icons/header/header-menu.svg";
 
-export const navStructure = {
+export const headerStructure = {
   logo: "THE MUSEUM",
   links: [
-    { title: "VISITA", path: "" },
-    { title: "COSA VEDERE", path: "" },
-    { title: "CHI SIAMO", path: "" },
-    { title: "ATTIVITA", path: "" },
-    { title: "AGENDA", path: "" },
+    { title: "VISITA", path: "./" },
+    { title: "COSA VEDERE", path: "./" },
+    { title: "CHI SIAMO", path: "./" },
+    { title: "ATTIVITA", path: "./" },
+    { title: "AGENDA", path: "./" },
   ],
-  lang: ["ENG"],
-  socialMedia: [
+  languages: ["ENG"],
+  socialMedias: [
     {
       url: "#",
       imgSrc: facebookIcon,
@@ -29,5 +30,16 @@ export const navStructure = {
       altText: "Twitter Icon",
     },
   ],
-  mobileMenuIcon: twitterIcon,
+  menuIcon: menuIcon,
 };
+
+export interface ILink {
+  path: string;
+  title: string;
+}
+
+export interface ISocialMedia {
+  url: string;
+  imgSrc: string;
+  altText: string;
+}
