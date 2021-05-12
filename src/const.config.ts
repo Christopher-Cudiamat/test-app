@@ -10,4 +10,7 @@ export const textConfig = {
   FOOTER_EMAIL: "email",
   FOOTER_NEWSLETTER: "Iscriviti alla newsletter",
   FOOTER_TERMS_CONDITIONS: "Accetto i termini e condizioni",
+  HOME_HERO_TITLE: "ARCHIVIO STORICO",
+  HOME_HERO_MESSAGE:
+    "Una raccolta di tutti i momenti più importanti nella storia del museo e dei suoi curatori.",
 };
