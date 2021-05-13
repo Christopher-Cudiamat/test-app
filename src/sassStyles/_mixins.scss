@@ -31,6 +31,12 @@
   }
 }
 
+@mixin fullMinBreakPoint {
+  @media (min-width: #{$screen-full}) {
+    @content;
+  }
+}
+
 @mixin customMinBreakPoint($size) {
   @media (min-width: $size+"px") {
     @content;

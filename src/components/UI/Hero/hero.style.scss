@@ -15,14 +15,21 @@
     position: absolute;
     left: 0%;
     top: 50%;
-    font-weight: 400;
     color: $whiteColor;
+    @include fullMinBreakPoint {
+      top: 35rem;
+    }
     & > h1 {
+      font-weight: 300;
       font-size: 5rem;
       margin-bottom: 2rem;
       max-width: 20rem;
       @include lgMinBreakPoint {
         font-size: 5rem;
+      }
+
+      @include fullMinBreakPoint {
+        font-size: 9.8rem;
       }
     }
     & > p {
@@ -31,6 +38,10 @@
       max-width: 90%;
       @include lgMinBreakPoint {
         font-size: 3rem;
+      }
+      @include fullMinBreakPoint {
+        font-size: 3.6rem;
+        max-width: 86.7rem;
       }
     }
   }
